@@ -10,7 +10,7 @@ class Report{
   static configForSendingEmail(){
     return nodeMailer.createTransport(sendGrid({
       auth:{
-        api_key:'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'
+        api_key:'' // here must be your key
       }
     }));
   }
